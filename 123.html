@@ -1,0 +1,75 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="utf-8">
+<style>
+	ul.ab li{
+		position: relative;
+		float: left;
+		list-style: none;
+	}
+	ul.ab li a{
+		display: block;
+		padding: 12px 20px;
+		background: black;
+		color: red;
+		text-decoration: none;
+	}
+	ul.ab > li > a{
+		border-bottom: 1px solid #ccc;
+		border-left: 1px solid #ccc;
+	}
+	ul.ab > li > a:hover{
+		color: grey;
+		background: #DDD
+	}
+	ul.ab li a:hover{
+		color: grey;
+		background: #DDD
+	}
+	ul.ab li ul{
+		display: none;
+		float: left;
+		position: absolute;
+		margin: 0;
+		padding: 0;
+	}
+	ul.ab li:hover > ul{
+		display: block;
+	}
+	ul.ab ul li{
+		border-bottom: 1px solid #DDD
+	}
+	ul.ab ul li:last-child{
+		border-bottom: none;
+	}
+	ul.ab ul a{
+		width: 50px;
+		padding:10px 12px;
+		color: blue;
+		background: #EEE;
+	}
+	ul.ab ul a:hover{
+		background: #ccc;
+	}
+	ul.ab ul li:hover > ul{
+		display: block;
+		position: absolute;
+		top: 0;
+		left: 50%;
+	}
+
+</style>
+</head>
+<body>
+<ul class="ab">
+	<li><a href="">關於</a>
+		<ul>
+			<li><a href=""> &nbsp&nbsp首頁</a></li>
+			<li><a href=""> &nbsp&nbsp人物</a></li>	
+	    </ul>
+	</li>
+</ul>
+<hr width="1"height="100%">
+</body>
+</html>
