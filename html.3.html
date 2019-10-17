@@ -1,60 +1,127 @@
 <!DOCTYPE html>
 <html>
 <head>
-	<meta charset="UTF-8">
-	<Style>
-		.head{float: left}
-		.head:hover{background-color:rgb(102,102,153)}
+	<meta charset="utf-8">
+<style>
 		a{text-decoration:none}
-		a{color: red}
-		#article{height: 400px;width: 1500px;text-align: center;font-size: 50px;line-height: 1.5;}
-	</Style>
+		a{color: black}
+		ul.ab li{
+		position: relative;
+		float: left;
+		list-style: none;
+	}
+	ul.ab li a{
+		display: block;
+		margin-top: -35px;
+		padding: 30px 30px;
+		background: linear-gradient(grey,black);
+		color: red;
+		text-decoration: none;
+	}
+	ul.ab > li > a:hover{
+		color: grey;
+		background: #DDD
+	}
+	ul.ab li a:hover{
+		color: grey;
+		background: #DDD
+	}
+	ul.ab li ul{
+		display: none;
+		float: left;
+		position: absolute;
+		margin-top: 35px;
+		padding: 0;
+	}
+	ul.ab li:hover > ul{
+		display: block;
+	}
+	ul.ab ul li{
+		border-bottom: 1px solid #DDD
+	}
+	ul.ab ul li:last-child{
+		border-bottom: none;
+	}
+	ul.ab ul a{
+		width: 120px;
+		padding:10px 12px;
+		color: red;
+		background: #EEE;
+	}
+	ul.ab ul a:hover{
+		background: #ccc;
+	}
+	ul.ab ul li:hover > ul{
+		display: block;
+		position: absolute;
+		top: 0;
+		left: 50%;
+	}
+	.ab{font-size: 35px}
+	body{font-family:Lato,'Open Sans', sans-sarif; font-size:16px; }
+	.A1{
+		padding-left: 8px
+	}
+	.A1:hover{
+		display: block;
+		background-color: rgb(102,102,153);
+		position: relative;
+		padding-left: 8px;
+	}
+	
+</style>
 </head>
 <body>
 	<body style="background-image: url(AC2.jpg);background-repeat: no-repeat;background-attachment: fixed;background-position: 50% 50%;background-size:100% 100%;">
-	</body>
-	<div style="height: 100px;width: 99%;background-image: linear-gradient(grey,black);position: fixed;color: white">
-		<div class="head"style="height: 100px;width: 300px">
-		<h1 style="margin: 0px 0px"><b> <br><a href="https://kirinlove.github.io/Assassin/10804108AC.html">&nbsp Assassin's Creed</b></h1>
-		</a></div>
-	</div>
-	<div style="margin-top:-8px;padding-top: 100px">
-	<div style="float: left;height: 1550px;width: 200px;background-color:rgb(192,192,216)">
-		<div class="head"style="height: 110px;width: 200px">
-		<h1><a href="https://kirinlove.github.io/Assassin/html%202.html">&nbsp Assassin's &nbsp&nbspCreed</a></h1>
-
-	</div>
-	<div class="head"style="height: 110px;width: 200px">
-		<h1><a href="https://kirinlove.github.io/Assassin/html.3.html">&nbsp Assassin's &nbsp&nbspCreed II</a></h1>
-	</div>
-	<div class="head"style="height: 150px;width: 200px">
-		<h1><a href="https://kirinlove.github.io/Assassin/html.4.html">&nbsp Assassin's &nbsp&nbspCreed &nbspBrotherhood</a></h1>
-	</div>
-	<div class="head"style="height: 150px;width: 200px">
-		<h1><a href="https://kirinlove.github.io/Assassin/html.5.html">&nbsp Assassin's &nbsp&nbspCreed &nbsp&nbspRevelations</a></h1>
-	</div>
-	<div class="head"style="height: 110px;width: 200px">
-		<h1><a href="https://kirinlove.github.io/Assassin/html.6.html">&nbsp Assassin's &nbsp&nbspCreed III</a></h1>
-	</div>
-	<div class="head"style="height: 150px;width: 200px">
-		<h1><a href="https://kirinlove.github.io/Assassin/html.7.html">&nbsp Assassin's &nbsp&nbspCreed IV &nbsp&nbspBlack Flag</a></h1>
-	</div>
-	<div class="head"style="height: 150px;width: 200px">
-		<h1><a href="https://kirinlove.github.io/Assassin/html.8.html">&nbsp Assassin's &nbsp&nbspCreed &nbsp&nbspRogue</a></h1>
-	</div>
-	<div class="head"style="height: 150px;width: 200px">
-		<h1><a href="https://kirinlove.github.io/Assassin/html.9.html">&nbsp Assassin's &nbsp&nbspCreed &nbsp&nbsp&nbspUnity</a></h1>
-	</div>
-	<div class="head"style="height: 150px;width: 200px">
-		<h1><a href="https://kirinlove.github.io/Assassin/html.10.html">&nbsp Assassin's &nbsp&nbspCreed &nbsp&nbspSyndicate</a></h1>
-	</div>
-	<div class="head"style="height: 150px;width: 200px">
-		<h1><a href="https://kirinlove.github.io/Assassin/html.11.html">&nbsp Assassin's &nbsp&nbspCreed &nbsp&nbspOrigins</a></h1>
-	</div>
-	<div class="head"style="height: 150px;width: 200px">
-		<h1><a href="https://kirinlove.github.io/Assassin/html.12.html">&nbsp Assassin's &nbsp&nbspCreed &nbsp&nbspOdyssey</a></h1>
-	</div>
-	<div id="article">
-	<p><b>《刺客信條2》（Assassin's Creed II）的劇情緊接前作《刺客信條》，遊戲的故事舞台從十字軍東征時期的耶路撒冷來到了文藝復興時期的意大利，距離第一代有三百多年。在調酒師戴斯蒙·邁爾斯的DNA裡，Abstergo公司發現了他另一位祖先的記憶，生活在十五世紀末的貴族艾吉奧·奧迪托雷。主角是一名遭到對立家族迫害的貴族青年，為了替家族雪恥而選擇了復仇的道路。</b></p>
+<ul class="ab">
+	<li><a href="https://kirinlove.github.io/Assassin/2.html">Assassin's Creed</a>
+		<ul>
+			<li><a href="https://kirinlove.github.io/Assassin/10804108AC.html"> &nbsp&nbsp簡介</a>
+			</li>
+			<li><a href="https://kirinlove.github.io/Assassin/3.html"> &nbsp&nbsp人物
+			</a>
+			</li>	
+	    </ul>
+	</li>
+</ul>
+<hr width="1"height="100%">
+<div style="height: 100px;width: 101.05%;background-image: linear-gradient(grey,black);position: fixed;z-index:-100;position: relative;margin-top:-45px;margin-left: -8px">
+</div>
+<div style="float: left;height: 1380px;width: 200px;background-color:rgb(192,192,216);margin-left: -7px">
+	<ul class="A1">
+	<h1><a href="https://kirinlove.github.io/Assassin/html%202.html">&nbsp Assassin's &nbsp&nbspCreed</a></h1>
+	</ul>
+	<ul class="A1">
+	<h1><a href="https://kirinlove.github.io/Assassin/html.3.html">&nbsp Assassin's &nbsp&nbspCreed II</a></h1>
+	</ul>
+	<ul class="A1">
+	<h1><a href="https://kirinlove.github.io/Assassin/html.4.html">&nbsp Assassin's &nbsp&nbspCreed &nbspBrotherhood</a></h1>
+	</ul>
+	<ul class="A1">
+	<h1><a href="https://kirinlove.github.io/Assassin/html.5.html">&nbsp Assassin's &nbsp&nbspCreed &nbsp&nbspRevelations</a></h1>
+	</ul>
+	<ul class="A1">
+	<h1><a href="https://kirinlove.github.io/Assassin/html.6.html">&nbsp Assassin's &nbsp&nbspCreed III</a></h1>
+	</ul>
+	<ul class="A1">
+	<h1><a href="https://kirinlove.github.io/Assassin/html.7.html">&nbsp Assassin's &nbsp&nbspCreed IV &nbsp&nbspBlack Flag</a></h1>
+	</ul>
+	<ul class="A1">
+	<h1><a href="https://kirinlove.github.io/Assassin/html.8.html">&nbsp Assassin's &nbsp&nbspCreed &nbsp&nbspRogue</a></h1>
+	</ul>
+	<ul class="A1">
+	<h1><a href="https://kirinlove.github.io/Assassin/html.9.html">&nbsp Assassin's &nbsp&nbspCreed &nbsp&nbsp&nbspUnity</a></h1>
+	</ul>
+	<ul class="A1">
+	<h1><a href="https://kirinlove.github.io/Assassin/html.10.html">&nbsp Assassin's &nbsp&nbspCreed &nbsp&nbspSyndicate</a></h1>
+	</ul>
+	<ul class="A1">
+	<h1><a href="https://kirinlove.github.io/Assassin/html.11.html">&nbsp Assassin's &nbsp&nbspCreed &nbsp&nbspOrigins</a></h1>
+	</ul>
+	<ul class="A1">
+	<h1><a href="https://kirinlove.github.io/Assassin/html.12.html">&nbsp Assassin's &nbsp&nbspCreed &nbsp&nbspOdyssey</a></h1>
+	</ul>
+</div>
+	<h1 style="font-size: 50px;text-align: center;line-height: 1.5"><b>《刺客信條2》（Assassin's Creed II）的劇情緊接前作《刺客信條》，遊戲的故事舞台從十字軍東征時期的耶路撒冷來到了文藝復興時期的意大利，距離第一代有三百多年。在調酒師戴斯蒙·邁爾斯的DNA裡，Abstergo公司發現了他另一位祖先的記憶，生活在十五世紀末的貴族艾吉奧·奧迪托雷。主角是一名遭到對立家族迫害的貴族青年，為了替家族雪恥而選擇了復仇的道路。</b></h1>
 </body>
 </html>
